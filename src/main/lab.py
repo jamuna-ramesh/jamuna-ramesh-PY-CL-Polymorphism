@@ -36,6 +36,9 @@ class Circle(Shape):
     
     """
     # Write your code here
+    def area(self):
+        return math.pi * (self.radius ** 2)
+
 
 class Rectangle(Shape):
     def __init__(self, width, height):
@@ -53,3 +56,5 @@ class Rectangle(Shape):
     - float: The area of the rectangle.
     """
     # Write you code here
+    def area(self):
+        return self.width * self.height
